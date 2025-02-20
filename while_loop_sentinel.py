@@ -14,7 +14,7 @@ def main():
             total_sum += number
         except ValueError:
                 print("Invalid input. Please enter a numeric value or 'stop'.")
-        print("The total sum is:", total_sum)
+    print("The total sum is:", total_sum)
 
-if __name__ == "__main":
+if __name__ == "__main__":
     main()
